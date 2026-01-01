@@ -14,29 +14,29 @@ export interface FeatureBlock {
 export const featureBlocks: FeatureBlock[] = [
   {
     id: 'feature-1',
-    title: 'Expert Chiropractic Care',
+    title: 'Traditional Artisan Methods',
     description:
-      'Our comprehensive approach combines advanced chiropractic techniques with personalized treatment plans designed to address your specific needs. We focus on long-term solutions rather than temporary relief, helping you achieve lasting wellness.',
-    image: '/spinal-adjustment-treatment.jpeg',
-    imageAlt: 'Professional chiropractic treatment',
+      'Every loaf is handcrafted using centuries-old techniques passed down through generations of bakers. Our naturally leavened sourdough uses a 100-year-old starter, creating bread with complex flavors and exceptional texture that mass production simply cannot replicate.',
+    image: '/images/feature-handcraft.jpg',
+    imageAlt: 'Baker hand-shaping artisan bread',
     imagePosition: 'right',
   },
   {
     id: 'feature-2',
-    title: 'Modern Treatment Techniques',
+    title: 'Organic Local Ingredients',
     description:
-      'We utilize the latest evidence-based chiropractic methods and state-of-the-art equipment to provide effective, gentle care. Our techniques are continuously updated to incorporate the most current research in chiropractic medicine.',
-    image: '/iastm-shoulder-treatment.jpeg',
-    imageAlt: 'Modern treatment techniques',
+      'We source only the finest organic flour, grains, and seasonal produce from California farms. Our commitment to local ingredients means fresher products, support for our community, and exceptional flavor in every bite.',
+    image: '/images/feature-ingredients.jpg',
+    imageAlt: 'Fresh organic ingredients and grains',
     imagePosition: 'left',
   },
   {
     id: 'feature-3',
-    title: 'Personalized Wellness Plans',
+    title: 'Baked Fresh Daily',
     description:
-      'Every patient receives a customized treatment plan tailored to their unique condition, lifestyle, and wellness goals. We take the time to understand your needs and create a roadmap to help you achieve optimal health.',
-    image: '/hip-adjustment-side-lying.jpeg',
-    imageAlt: 'Personalized wellness consultation',
+      'Our ovens never stop. Breads are baked fresh multiple times throughout the day, and our pastries are made each morning before dawn. Visit us at any time to experience the warm, welcoming aroma of fresh-baked goods straight from the oven.',
+    image: '/images/feature-fresh.jpg',
+    imageAlt: 'Fresh bread coming out of the oven',
     imagePosition: 'right',
   },
 ]

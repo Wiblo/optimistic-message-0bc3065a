@@ -12,11 +12,11 @@ export interface CTAContent {
  * Update this to modify the CTA section shown on the homepage
  */
 export const ctaContent: CTAContent = {
-  title: 'Ready to Start Your Healing Journey?',
+  title: 'Custom Cakes for Every Celebration',
   description:
-    'Experience comprehensive chiropractic care tailored to your unique needs. Dr. Kamilah Jordaan is here to help you achieve optimal health and wellness.',
-  ctaText: 'Book Your Appointment',
-  ctaUrl: 'https://sticksandstoneswellnesshub.pencilmein.online/Booking',
-  backgroundImage: '/cta-background.jpeg',
-  backgroundImageAlt: 'Professional chiropractic treatment room',
+    'Make your special moments unforgettable with a custom celebration cake. From birthdays to weddings, our pastry chef will create your dream cake with premium ingredients and beautiful designs.',
+  ctaText: 'Order a Custom Cake',
+  ctaUrl: 'tel:4155552020',
+  backgroundImage: '/images/cta-background.jpg',
+  backgroundImageAlt: 'Beautiful custom celebration cakes display',
 }

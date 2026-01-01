@@ -10,52 +10,52 @@ export interface FaqItem {
  */
 export const faqs: FaqItem[] = [
   {
-    id: 'first-visit',
-    question: 'What should I expect on my first visit?',
+    id: 'hours',
+    question: 'What are your hours of operation?',
     answer:
-      "Your initial consultation includes a thorough history taking and physical examination to determine if chiropractic care is suitable for you. We'll discuss your health goals and create a personalized treatment plan. The first visit typically lasts 45 minutes to ensure we understand your needs completely. Follow-up appointments are 30 minutes.",
+      "We're open Monday through Thursday 7am-7pm, Friday 7am-8pm, Saturday 8am-8pm, and Sunday 8am-6pm. Our breads are baked fresh throughout the day, with new batches coming out of the oven every few hours.",
   },
   {
-    id: 'medical-aid',
-    question: 'Do you accept medical aid?',
+    id: 'preorders',
+    question: 'Do you take pre-orders for bread or pastries?',
     answer:
-      'Yes, we process medical aid claims on your behalf. We work with most major medical aids in South Africa. You settle your bill after your session and then we will submit the claim to your medical aid.',
+      "Yes! We recommend pre-ordering for special breads like our olive ciabatta or if you need a large quantity. Call us at (415) 555-2020 or email hello@goldengatebakery.com at least 24 hours in advance. Walk-ins are always welcome, but popular items can sell out.",
   },
   {
-    id: 'painful',
-    question: 'Is chiropractic treatment painful?',
+    id: 'custom-cakes',
+    question: 'How do I order a custom celebration cake?',
     answer:
-      "Chiropractic adjustments are generally not painful. You may feel slight pressure or hear a popping sound, but the treatment is designed to relieve pain, not cause it. We adapt techniques to each patient's comfort level and always communicate throughout the treatment to ensure you're comfortable.",
+      "We'd love to create your dream cake! Custom cakes require at least 2 weeks advance notice. Call us at (415) 555-2020 to schedule a consultation with our pastry chef. We'll discuss design, flavors, dietary needs, and serving size. Custom cakes start at $75.",
   },
   {
-    id: 'sessions',
-    question: 'How many sessions will I need?',
+    id: 'dietary',
+    question: 'Do you offer gluten-free or vegan options?',
     answer:
-      "The number of sessions varies depending on your condition, its severity, and your health goals. After your initial assessment, we'll provide a treatment plan with an estimated timeline. Most patients see improvement within 2-4 sessions, though chronic conditions may require ongoing care.",
+      'Yes! We have a selection of gluten-free breads and pastries, as well as vegan options made with plant-based ingredients. Our staff can help you identify which items meet your dietary needs. Please note that while we take precautions, our kitchen is not a dedicated gluten-free facility.',
   },
   {
-    id: 'pregnancy',
-    question: 'Is chiropractic care safe during pregnancy?',
+    id: 'ingredients',
+    question: 'Where do you source your ingredients?',
     answer:
-      'Yes, chiropractic care is safe and beneficial during pregnancy. We use specialized techniques designed for pregnant women to help manage pain and ensure proper pelvic alignment for easier delivery. Many women find relief from pregnancy-related back pain through gentle chiropractic care.',
+      'We source organic flour and grains from California farms, with our main supplier being Central Milling in Petaluma. Our eggs come from pasture-raised chickens, and we use European-style cultured butter. Seasonal fruits come from local farmers markets. Quality ingredients make all the difference.',
   },
   {
-    id: 'children',
-    question: 'Can children receive chiropractic treatment?',
+    id: 'sourdough',
+    question: 'What makes your sourdough special?',
     answer:
-      'Absolutely! Children can benefit greatly from chiropractic care. We use gentle, age-appropriate techniques to address issues like colic, growing pains, sports injuries, and posture problems. Pediatric chiropractic care supports healthy development and can prevent future problems.',
+      'Our sourdough is made with a 100-year-old starter gifted from a traditional Parisian boulangerie. We ferment the dough for 48 hours, developing complex flavors and making it easier to digest. The result is a bread with a perfectly crispy crust, tangy flavor, and chewy interior that stays fresh for days.',
   },
   {
-    id: 'appointment',
-    question: 'How do I book an appointment?',
+    id: 'parking',
+    question: 'Is there parking available?',
     answer:
-      'You can book an appointment through our online booking system at Sticks and Stones Wellness Hub, call us at 082 940 7129, or email kamilahjordaan@gmail.com. We offer flexible scheduling with appointments available 6 days a week to accommodate your busy lifestyle.',
+      "We're located on Valencia Street in the Mission District. Street parking is available, and there's a public parking garage two blocks away on 16th Street. We're also easily accessible via BART (16th Street Mission station) and several MUNI bus lines.",
   },
   {
-    id: 'what-to-wear',
-    question: 'What should I wear to my appointment?',
+    id: 'wholesale',
+    question: 'Do you offer wholesale to restaurants or cafes?',
     answer:
-      'Wear comfortable, loose-fitting clothing that allows for movement. Avoid wearing dresses or skirts if possible, as you may need to perform certain movements during the examination.',
+      'Yes, we supply several local restaurants, cafes, and specialty food shops with our artisan breads. For wholesale inquiries, please email hello@goldengatebakery.com with details about your business and needs.',
   },
 ]
 

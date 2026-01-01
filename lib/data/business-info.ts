@@ -1,72 +1,67 @@
 export const businessInfo = {
   // Core business details
-  name: "Practice Name Chiropractic",
-  tagline: "Quality chiropractic care in Your City",
+  name: "Golden Gate Bakery",
+  tagline: "Artisan Breads & Pastries in the Heart of San Francisco",
   logo: "/logo.png",
 
   // Contact information
-  phone: "(555) 123-4567",
-  phoneSecondary: "(555) 987-6543", // Optional second phone number
-  email: "contact@example.com",
+  phone: "(415) 555-2020",
+  phoneSecondary: "", // Optional second phone number
+  email: "hello@goldengatebakery.com",
 
   // Location
   address: {
-    street: "123 Main Street",
+    street: "456 Valencia Street",
     area: "", // Optional (e.g., "Building Name" or "Suite 100")
-    city: "Springfield",
+    city: "San Francisco",
     state: "CA",
-    zip: "12345",
+    zip: "94103",
     country: "US",
   },
 
   // Optional: Coordinates for map and LocalBusiness schema
   geo: {
-    latitude: 40.7128,
-    longitude: -74.0060,
+    latitude: 37.7749,
+    longitude: -122.4194,
   },
 
   // Business hours
   hours: {
-    monday: "9:00am - 6:00pm",
-    tuesday: "9:00am - 6:00pm",
-    wednesday: "9:00am - 6:00pm",
-    thursday: "9:00am - 6:00pm",
-    friday: "9:00am - 5:00pm",
-    saturday: "10:00am - 2:00pm",
-    sunday: "Closed",
+    monday: "7:00am - 7:00pm",
+    tuesday: "7:00am - 7:00pm",
+    wednesday: "7:00am - 7:00pm",
+    thursday: "7:00am - 7:00pm",
+    friday: "7:00am - 8:00pm",
+    saturday: "8:00am - 8:00pm",
+    sunday: "8:00am - 6:00pm",
   },
 
   // Social media profiles
   social: {
-    facebook: "https://facebook.com/yourpage",
-    instagram: "https://instagram.com/yourpage",
-    whatsapp: "https://wa.me/1234567890", // WhatsApp link with number
+    facebook: "https://facebook.com/goldengatebakery",
+    instagram: "https://instagram.com/goldengatebakery",
+    whatsapp: "", // WhatsApp link with number
     // twitter: "https://twitter.com/yourpage",
     // linkedin: "https://linkedin.com/company/yourpage",
   },
 
   // Site metadata
-  url: "https://example.com",
-  description: "Dedicated to helping people achieve a pain-free life through non-invasive healthcare.",
+  url: "https://goldengatebakery.com",
+  description: "San Francisco's premier artisan bakery serving fresh-baked breads, pastries, and custom cakes daily. Family-owned since 2010.",
   priceRange: "$$", // $, $$, $$$, or $$$$
 
   // Schema.org types for JSON-LD structured data
-  // Customize based on your business type. Common combinations:
-  // - Chiropractor: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness']
-  // - Physical Therapist: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness']
-  // - Massage Spa: ['LocalBusiness', 'HealthAndBeautyBusiness', 'DaySpa']
-  // - General Wellness: ['LocalBusiness', 'HealthAndBeautyBusiness']
-  // - Acupuncture: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness']
-  schemaTypes: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness'] as const,
+  // Bakery: ['LocalBusiness', 'FoodEstablishment', 'Bakery']
+  schemaTypes: ['LocalBusiness', 'FoodEstablishment', 'Bakery'] as const,
 
   // Booking/appointment URL
-  bookingUrl: "https://sticksandstoneswellnesshub.pencilmein.online/Booking",
+  bookingUrl: "",
 
   // Google Maps configuration
   maps: {
     apiKey: "AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
     // Location name for Google Maps searches
-    locationName: "Sticks and Stones Wellness Hub",
+    locationName: "Golden Gate Bakery",
   },
 }
 

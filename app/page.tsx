@@ -1,24 +1,23 @@
 import { HeroWithImage } from "@/components/sections/hero/HeroWithImage"
-import { FeaturedServices } from "@/components/sections/services/FeaturedServices"
+import { MenuGrid } from "@/components/sections/menu/MenuGrid"
 import { AboutSection } from "@/components/sections/about/AboutSection"
 import { FeaturesSection } from "@/components/sections/features/FeaturesSection"
 import { CTASection } from "@/components/sections/cta/CTASection"
 import { LocationSection } from "@/components/sections/location/LocationSection"
 import { FaqSection } from "@/components/sections/faq/FaqSection"
-import { businessInfo } from "@/lib/data/business-info"
 
 export default function Home() {
   return (
     <>
       <HeroWithImage
-        subtitle="Dr. Kamilah Jordaan"
-        title="Sports & Family Chiropractic Care"
-        backgroundImage="/dr-kamilah-professional-portrait.jpeg"
-        backgroundImageAlt="Dr. Kamilah Jordaan - Professional Chiropractor"
-        ctaText="Book Your Appointment"
-        ctaUrl={businessInfo.bookingUrl}
+        subtitle="Since 2010"
+        title="Fresh Artisan Breads & Pastries Daily"
+        backgroundImage="/images/hero-bakery.jpg"
+        backgroundImageAlt="Fresh artisan breads and pastries at Golden Gate Bakery"
+        ctaText="Visit Us Today"
+        ctaUrl="#location"
       />
-      <FeaturedServices />
+      <MenuGrid />
       <AboutSection />
       <FeaturesSection />
       <CTASection />
