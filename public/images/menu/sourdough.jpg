@@ -1,0 +1,8 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#92400e"/>
+  <circle cx="400" cy="300" r="180" fill="#c2410c" opacity="0.7"/>
+  <circle cx="400" cy="300" r="140" fill="#ea580c" opacity="0.7"/>
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">🍞</text>
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">Sourdough</text>
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">Replace with photo</text>
+</svg>
